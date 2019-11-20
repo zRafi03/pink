@@ -4,6 +4,9 @@
 	
 		$name = $_GET['name'];
 	}
+	$Zahl1 = $_GET['Zahl1'];
+	$Zahl2 = $_GET['Zahl2'];
+	$Antwort = $Zahl1 * $Zahl2;
 ?>
 
 <html>
@@ -12,14 +15,17 @@
 </head>
 
 <body>
-	<?php
-		echo "<h1>hallo ".$name."</h1>";
-	?>
 	
 	<form>
-		<input type="text" name = "name">
+		x=<input type="number_format" name = "Zahl1">
+
+		
+		y=<input type="number_format" name = "Zahl2">
 		<input type="submit">
 	
+	<?php
+		echo "<h1>".$Antwort."</h1>";
+	?>
 	</form>
 	
 </body>
