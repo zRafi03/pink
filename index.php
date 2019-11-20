@@ -6,7 +6,7 @@
 	}
 	$Zahl1 = $_GET['Zahl1'];
 	$Zahl2 = $_GET['Zahl2'];
-	$Antwort = $Zahl1 * $Zahl2;
+	$Antwort = $Zahl1 + $Zahl2;
 ?>
 
 <html>
